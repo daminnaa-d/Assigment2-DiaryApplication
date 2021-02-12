@@ -1,0 +1,27 @@
+table{
+  border-collapse: collapse;
+  margin-top: 30px;
+
+}
+
+.button{
+  background: dodgerblue ;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  width: 50px;
+  height: 30px;
+}
+
+th{
+  background: lightgray;
+  padding: 10px 30px;
+}
+
+td{
+  text-align: center;
+  padding: 10px;
+}
+
+
+

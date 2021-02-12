@@ -1,0 +1,27 @@
+<h1>Add Records</h1>
+<div>
+<div class="addrecords">
+<div class="inputs">
+  <label>Jogging date:
+   <br><input type="text" [(ngModel)]="text" placeholder="dd/mm/yyyy" name="text">
+  </label>
+</div>
+<div class="inputs">
+  <label>Distance(m):
+    <br><input type="number" [(ngModel)]="distance" placeholder="0" name="distance">
+  </label>
+</div>
+<div class="inputs">
+  <label>Time(s):
+    <br><input type="number" [(ngModel)]="time" placeholder="0" name="time">
+  </label>
+</div>
+<input class="button" type="submit" name="submit" value="Save">
+</div>
+
+<div class="component2" >
+  <app-results [text]="text" [distance]="distance" [time]="time"></app-results>
+</div>
+</div>
+
+

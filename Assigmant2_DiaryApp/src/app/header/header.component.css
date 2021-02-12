@@ -1,0 +1,14 @@
+.design{
+  margin-left: 20px;
+}
+
+.image{
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+
+.string{
+  display: inline-block;
+  padding: 30px;
+}
